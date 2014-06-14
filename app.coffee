@@ -27,6 +27,6 @@ tribe.on 'data', (data)->
     o = JSON.parse(data)
     if o?.values?.frame?
       console.log(o.values.frame.avg.x+'\t\t'+o.values.frame.avg.y)
-      io.sockets.emit('frame', data)
+      io.sockets.emit('frame', o)
   catch err
     console.error 'Malformed JSON', err
