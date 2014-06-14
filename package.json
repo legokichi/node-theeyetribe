@@ -1,0 +1,19 @@
+{
+  "name": "node-eyetribe",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io":"*",
+    "express":"*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-watch": "*"
+  }
+}
